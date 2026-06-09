@@ -468,21 +468,130 @@ strong { font-weight: 600; }
   gap: .45rem;
   flex-wrap: wrap;
 }
-.lang-tag {
-  padding: .25rem .65rem;
+/* ── Boutons de langue ── */
+.lang-btn {
+  padding: .28rem .7rem;
   border-radius: var(--radius-full);
   font-size: .7rem;
   font-weight: 700;
   letter-spacing: .06em;
-  color: rgba(255,255,255,.7);
-  border: 1px solid rgba(255,255,255,.2);
+  color: rgba(255,255,255,.65);
+  border: 1.5px solid rgba(255,255,255,.18);
   background: rgba(255,255,255,.07);
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-sans);
+  line-height: 1;
 }
-.lang-tag--more {
+.lang-btn:hover {
+  color: white;
+  background: rgba(255,255,255,.18);
+  border-color: rgba(255,255,255,.45);
+  transform: translateY(-1px);
+}
+.lang-btn.active {
+  color: var(--c-navy);
+  background: white;
+  border-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+.lang-btn--more {
   color: var(--c-gold);
-  border-color: rgba(244,185,66,.3);
-  background: rgba(244,185,66,.08);
+  border-color: rgba(244,185,66,.35);
+  background: rgba(244,185,66,.1);
 }
+.lang-btn--more:hover, .lang-btn--more.active {
+  background: var(--c-gold);
+  color: var(--c-navy);
+  border-color: var(--c-gold);
+}
+
+/* Dropdown +12 */
+.lang-more-wrap {
+  position: relative;
+}
+.lang-dropdown {
+  position: absolute;
+  bottom: calc(100% + .75rem);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  padding: 1.25rem;
+  z-index: 200;
+  animation: dropdown-in .2s var(--ease-out-expo);
+}
+.lang-dropdown[hidden] { display: none; }
+@keyframes dropdown-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+.lang-dropdown__title {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+  margin-bottom: .75rem;
+}
+.lang-dropdown ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .35rem;
+  margin-bottom: 1rem;
+}
+.lang-dropdown li {
+  font-size: .82rem;
+  color: var(--c-text);
+  padding: .3rem .5rem;
+  border-radius: var(--radius-sm);
+  transition: background .15s;
+}
+.lang-dropdown li:hover { background: var(--c-bg-alt); }
+.lang-dropdown__cta {
+  display: block;
+  text-align: center;
+  padding: .55rem;
+  background: var(--c-bg-alt);
+  border-radius: var(--radius-md);
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--c-orange);
+  transition: background var(--transition);
+}
+.lang-dropdown__cta:hover { background: rgba(232,96,44,.1); }
+
+/* ── Support RTL (Arabe) ── */
+:lang(ar) {
+  font-family: 'Segoe UI', 'Arabic Typesetting', 'Tahoma', 'Arial', sans-serif;
+}
+:lang(zh) {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'SimHei', var(--font-sans);
+}
+[dir="rtl"] .eyebrow { flex-direction: row-reverse; }
+[dir="rtl"] .eyebrow::before { margin-left: 0; margin-right: 0; }
+[dir="rtl"] .hero__content { align-items: flex-end; text-align: right; }
+[dir="rtl"] .hero__actions { flex-direction: row-reverse; }
+[dir="rtl"] .hero__langs  { flex-direction: row-reverse; }
+[dir="rtl"] .hero__badge  { flex-direction: row-reverse; }
+[dir="rtl"] .value-chips  { flex-direction: row-reverse; }
+[dir="rtl"] .chip         { flex-direction: row-reverse; }
+[dir="rtl"] .mission__text-col { text-align: right; }
+[dir="rtl"] .svc-link     { flex-direction: row-reverse; }
+[dir="rtl"] .step-card    { text-align: right; }
+[dir="rtl"] .testi-card__author { flex-direction: row-reverse; text-align: right; }
+[dir="rtl"] .contact-detail     { flex-direction: row-reverse; }
+[dir="rtl"] .contact-detail dd  { text-align: right; }
+[dir="rtl"] .rejoindre__list li { flex-direction: row-reverse; }
+[dir="rtl"] .footer__brand { text-align: right; }
+[dir="rtl"] .footer__col ul { text-align: right; }
+[dir="rtl"] .footer__socials { flex-direction: row-reverse; }
+[dir="rtl"] input, [dir="rtl"] textarea, [dir="rtl"] select { text-align: right; direction: rtl; }
+[dir="rtl"] .form-check { flex-direction: row-reverse; }
+[dir="rtl"] .footer__bottom { flex-direction: row-reverse; }
+[dir="rtl"] .footer__bottom nav { flex-direction: row-reverse; }
 
 /* Hero visual / constellation */
 .hero__visual {
