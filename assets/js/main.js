@@ -353,10 +353,10 @@ const translations = {
       cta1:'Découvrir nos actions', cta2:'Prendre contact',
       dropdown_title:'Langues disponibles avec nos bénévoles', dropdown_cta:'Nous contacter →'
     },
-    stats: { people:'Personnes accompagnées', nationalities:'Nationalités représentées', volunteers:'Bénévoles engagés', years:"Années d'expérience" },
+    stats: { people:'Personnes accompagnées', nationalities:'Nationalités représentées', volunteers:'Bénévoles engagés', years:'Créée en' },
     mission: {
       eyebrow:'Notre mission', titlePlain:'Bâtir des ponts', titleGradient:'entre les cultures',
-      p1:"AIC est née d'un constat simple\u00a0: l'intégration ne se décrète pas, elle se construit. Ensemble. Depuis 2012, nous accompagnons des milliers de personnes dans leur parcours, avec une approche humaine et sur mesure.",
+      p1:"AIC est née d'un constat simple\u00a0: l'intégration ne se décrète pas, elle se construit. Ensemble. Depuis 2026, nous accompagnons des personnes dans leur parcours, avec une approche humaine et sur mesure.",
       p2:"Notre démarche repose sur trois piliers fondamentaux\u00a0: le <strong>respect</strong> des identités de chacun, la <strong>solidarité</strong> comme moteur du changement, et l'<strong>engagement</strong> pour une France véritablement inclusive.",
       cta:'Voir nos actions concrètes', chip1:'Respect', chip2:'Solidarité', chip3:'Engagement', chip4:'Inclusion'
     },
@@ -398,10 +398,10 @@ const translations = {
       f_submit:'Envoyer le message', f_note:'Nous vous répondons sous 48h ouvrées'
     },
     footer: {
-      desc:"Association loi 1901 reconnue d'utilité publique. Depuis 2012, nous construisons des ponts entre les cultures pour une France plus inclusive et solidaire.",
+      desc:"Association loi 1901 reconnue d'utilité publique. Depuis 2026, nous construisons des ponts entre les cultures pour une France plus inclusive et solidaire.",
       col1:'L\'association', col2:'Nos actions', col3:'Nous rejoindre',
       nl_title:'Newsletter', nl_desc:'Restez informé de nos actualités et prochains événements.', nl_ph:'votre@email.fr', nl_btn:"S'abonner",
-      copy:'© 2024 AIC — Association loi 1901 | SIRET 123 456 789 00010'
+      copy:'© 2026 AIC — Association loi 1901 | SIRET 123 456 789 00010'
     }
   },
 
@@ -414,10 +414,10 @@ const translations = {
       cta1:'Discover our programs', cta2:'Get in touch',
       dropdown_title:'Languages supported by our volunteers', dropdown_cta:'Contact us →'
     },
-    stats: { people:'People supported', nationalities:'Nationalities represented', volunteers:'Committed volunteers', years:'Years of experience' },
+    stats: { people:'People supported', nationalities:'Nationalities represented', volunteers:'Committed volunteers', years:'Founded in' },
     mission: {
       eyebrow:'Our mission', titlePlain:'Building bridges', titleGradient:'between cultures',
-      p1:'AIC was born from a simple observation: integration cannot be decreed, it must be built. Together. Since 2012, we have accompanied thousands of people on their journey with a human and personalized approach.',
+      p1:'AIC was born from a simple observation: integration cannot be decreed, it must be built. Together. Since 2026, we have accompanied people on their journey with a human and personalized approach.',
       p2:'Our approach rests on three fundamental pillars: <strong>respect</strong> for each person\'s identity, <strong>solidarity</strong> as the engine of change, and <strong>commitment</strong> to a truly inclusive France.',
       cta:'See our concrete actions', chip1:'Respect', chip2:'Solidarity', chip3:'Commitment', chip4:'Inclusion'
     },
@@ -459,10 +459,10 @@ const translations = {
       f_submit:'Send message', f_note:'We reply within 48 business hours'
     },
     footer: {
-      desc:'Recognized public benefit nonprofit. Since 2012, we build bridges between cultures for a more inclusive and supportive France.',
+      desc:'Recognized public benefit nonprofit. Since 2026, we build bridges between cultures for a more inclusive and supportive France.',
       col1:'The association', col2:'Our programs', col3:'Get involved',
       nl_title:'Newsletter', nl_desc:'Stay informed about our news and upcoming events.', nl_ph:'your@email.com', nl_btn:'Subscribe',
-      copy:'© 2024 AIC — Nonprofit organization | SIRET 123 456 789 00010'
+      copy:'© 2026 AIC — Nonprofit organization | SIRET 123 456 789 00010'
     }
   },
 
@@ -475,10 +475,10 @@ const translations = {
       cta1:'اكتشف برامجنا', cta2:'تواصل معنا',
       dropdown_title:'اللغات المتاحة مع متطوعينا', dropdown_cta:'تواصل معنا ←'
     },
-    stats: { people:'شخص مرافق', nationalities:'جنسية ممثلة', volunteers:'متطوع ملتزم', years:'سنة من الخبرة' },
+    stats: { people:'شخص مرافق', nationalities:'جنسية ممثلة', volunteers:'متطوع ملتزم', years:'تأسست في' },
     mission: {
       eyebrow:'مهمتنا', titlePlain:'بناء الجسور', titleGradient:'بين الثقافات',
-      p1:'وُلدت AIC من ملاحظة بسيطة: الاندماج لا يُفرض، بل يُبنى. معاً. منذ عام 2012، نرافق آلاف الأشخاص في مسارهم بنهج إنساني ومخصص.',
+      p1:'وُلدت AIC من ملاحظة بسيطة: الاندماج لا يُفرض، بل يُبنى. معاً. منذ عام 2026، نرافق الأشخاص في مسارهم بنهج إنساني ومخصص.',
       p2:'تقوم مقاربتنا على ثلاثة ركائز أساسية: <strong>احترام</strong> هوية كل شخص، و<strong>التضامن</strong> كمحرك للتغيير، و<strong>الالتزام</strong> من أجل فرنسا شاملة حقاً.',
       cta:'اكتشف أعمالنا الملموسة', chip1:'احترام', chip2:'تضامن', chip3:'التزام', chip4:'إدماج'
     },
@@ -520,10 +520,10 @@ const translations = {
       f_submit:'إرسال الرسالة', f_note:'سنرد عليك في غضون 48 ساعة عمل'
     },
     footer: {
-      desc:'جمعية معترف بها ذات منفعة عامة. منذ 2012، نبني جسوراً بين الثقافات من أجل فرنسا أكثر شمولاً وتضامناً.',
+      desc:'جمعية معترف بها ذات منفعة عامة. منذ 2026، نبني جسوراً بين الثقافات من أجل فرنسا أكثر شمولاً وتضامناً.',
       col1:'الجمعية', col2:'برامجنا', col3:'انضم إلينا',
       nl_title:'النشرة الإخبارية', nl_desc:'ابقَ على اطلاع بأخبارنا وفعالياتنا القادمة.', nl_ph:'بريدك@الإلكتروني', nl_btn:'اشترك',
-      copy:'© 2024 AIC — جمعية قانون 1901 | SIRET 123 456 789 00010'
+      copy:'© 2026 AIC — جمعية قانون 1901 | SIRET 123 456 789 00010'
     }
   },
 
@@ -536,10 +536,10 @@ const translations = {
       cta1:'Programlarımızı keşfedin', cta2:'İletişime geçin',
       dropdown_title:'Gönüllülerimizin desteklediği diller', dropdown_cta:'Bize yazın →'
     },
-    stats: { people:'Desteklenen kişi', nationalities:'Temsil edilen milliyet', volunteers:'Gönüllü', years:'Yıllık deneyim' },
+    stats: { people:'Desteklenen kişi', nationalities:'Temsil edilen milliyet', volunteers:'Gönüllü', years:'Kuruluş yılı' },
     mission: {
       eyebrow:'Misyonumuz', titlePlain:'Kültürler arası', titleGradient:'köprüler kurmak',
-      p1:"AIC basit bir tespitle doğdu: entegrasyon emredilmez, inşa edilir. Birlikte. 2012'den bu yana binlerce kişiye insani ve kişiselleştirilmiş bir yaklaşımla destek veriyoruz.",
+      p1:"AIC basit bir tespitle doğdu: entegrasyon emredilmez, inşa edilir. Birlikte. 2026'dan bu yana kişilere insani ve kişiselleştirilmiş bir yaklaşımla destek veriyoruz.",
       p2:"Yaklaşımımız üç temel sütuna dayanır: her bireyin kimliğine <strong>saygı</strong>, değişimin motoru olarak <strong>dayanışma</strong> ve gerçekten kapsayıcı bir Fransa için <strong>bağlılık</strong>.",
       cta:'Somut eylemlerimizi görün', chip1:'Saygı', chip2:'Dayanışma', chip3:'Bağlılık', chip4:'Kapsayıcılık'
     },
@@ -581,10 +581,10 @@ const translations = {
       f_submit:'Mesaj gönder', f_note:'48 iş saati içinde yanıt veriyoruz'
     },
     footer: {
-      desc:"Kamu yararına tanınan dernek. 2012'den beri daha kapsayıcı ve dayanışmacı bir Fransa için kültürler arası köprüler kuruyoruz.",
+      desc:"Kamu yararına tanınan dernek. 2026'dan beri daha kapsayıcı ve dayanışmacı bir Fransa için kültürler arası köprüler kuruyoruz.",
       col1:'Dernek', col2:'Programlarımız', col3:'Katılın',
       nl_title:'Bülten', nl_desc:'Haberlerimiz ve yaklaşan etkinlikler hakkında bilgi alın.', nl_ph:'siz@eposta.com', nl_btn:'Abone ol',
-      copy:'© 2024 AIC — Dernek | SIRET 123 456 789 00010'
+      copy:'© 2026 AIC — Dernek | SIRET 123 456 789 00010'
     }
   },
 
@@ -597,10 +597,10 @@ const translations = {
       cta1:'了解我们的行动', cta2:'联系我们',
       dropdown_title:'我们的志愿者所支持的语言', dropdown_cta:'联系我们 →'
     },
-    stats: { people:'受帮助的人数', nationalities:'代表的国籍数', volunteers:'志愿者人数', years:'年经验' },
+    stats: { people:'受帮助的人数', nationalities:'代表的国籍数', volunteers:'志愿者人数', years:'成立于' },
     mission: {
       eyebrow:'我们的使命', titlePlain:'搭建桥梁', titleGradient:'连接不同文化',
-      p1:'AIC 源于一个简单的观察：融合不是命令，而是共同建设的成果。自2012年以来，我们以人性化和个性化的方式陪伴了数千人走过融合之路。',
+      p1:'AIC 源于一个简单的观察：融合不是命令，而是共同建设的成果。自2026年以来，我们以人性化和个性化的方式陪伴人们走过融合之路。',
       p2:'我们的方法建立在三大支柱之上：对每个人身份的<strong>尊重</strong>，作为变革动力的<strong>团结</strong>，以及为了真正包容的法国而做出的<strong>承诺</strong>。',
       cta:'查看我们的具体行动', chip1:'尊重', chip2:'团结', chip3:'承诺', chip4:'包容'
     },
@@ -642,10 +642,10 @@ const translations = {
       f_submit:'发送消息', f_note:'我们将在48个工作小时内回复'
     },
     footer: {
-      desc:'认可的公益协会。自2012年以来，我们在文化之间架桥，为建设更加包容和团结的法国而努力。',
+      desc:'认可的公益协会。自2026年以来，我们在文化之间架桥，为建设更加包容和团结的法国而努力。',
       col1:'协会介绍', col2:'我们的行动', col3:'参与加入',
       nl_title:'电子通讯', nl_desc:'了解我们的最新动态和即将举行的活动。', nl_ph:'您的@邮箱.com', nl_btn:'订阅',
-      copy:'© 2024 AIC — 非营利组织 | SIRET 123 456 789 00010'
+      copy:'© 2026 AIC — 非营利组织 | SIRET 123 456 789 00010'
     }
   },
 
@@ -658,10 +658,10 @@ const translations = {
       cta1:'Descubrir nuestros programas', cta2:'Ponerse en contacto',
       dropdown_title:'Idiomas apoyados por nuestros voluntarios', dropdown_cta:'Contáctanos →'
     },
-    stats: { people:'Personas acompañadas', nationalities:'Nacionalidades representadas', volunteers:'Voluntarios comprometidos', years:'Años de experiencia' },
+    stats: { people:'Personas acompañadas', nationalities:'Nacionalidades representadas', volunteers:'Voluntarios comprometidos', years:'Fundada en' },
     mission: {
       eyebrow:'Nuestra misión', titlePlain:'Construir puentes', titleGradient:'entre las culturas',
-      p1:'AIC nació de una observación simple: la integración no se decreta, se construye. Juntos. Desde 2012, acompañamos a miles de personas en su camino con un enfoque humano y personalizado.',
+      p1:'AIC nació de una observación simple: la integración no se decreta, se construye. Juntos. Desde 2026, acompañamos a personas en su camino con un enfoque humano y personalizado.',
       p2:'Nuestro enfoque se basa en tres pilares fundamentales: el <strong>respeto</strong> de la identidad de cada uno, la <strong>solidaridad</strong> como motor del cambio, y el <strong>compromiso</strong> por una Francia verdaderamente inclusiva.',
       cta:'Ver nuestras acciones concretas', chip1:'Respeto', chip2:'Solidaridad', chip3:'Compromiso', chip4:'Inclusión'
     },
@@ -703,10 +703,10 @@ const translations = {
       f_submit:'Enviar mensaje', f_note:'Respondemos en 48 horas hábiles'
     },
     footer: {
-      desc:'Asociación reconocida de utilidad pública. Desde 2012, construimos puentes entre culturas por una Francia más inclusiva y solidaria.',
+      desc:'Asociación reconocida de utilidad pública. Desde 2026, construimos puentes entre culturas por una Francia más inclusiva y solidaria.',
       col1:'La asociación', col2:'Nuestros programas', col3:'Únete',
       nl_title:'Boletín', nl_desc:'Mantente informado de nuestras noticias y próximos eventos.', nl_ph:'tu@correo.es', nl_btn:'Suscribirse',
-      copy:'© 2024 AIC — Asociación sin ánimo de lucro | SIRET 123 456 789 00010'
+      copy:'© 2026 AIC — Asociación sin ánimo de lucro | SIRET 123 456 789 00010'
     }
   }
 };
